@@ -27,3 +27,64 @@ html, body, div,span,applet, object, iframe,
 footer, header, hgroup, menu, nav, section, {
     display: block;
 }
+body  {
+    line-height: 1;
+}
+ol, ul, {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, 
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse;
+    border-spacing;
+}
+
+a {
+    color:inherit;
+    text-decoration;
+}
+
+img {
+    width: inherit;
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    padding: 0;
+    border: none;
+    background-color: unset;
+}
+
+input {
+    border:nome; 
+    color:inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+textarea {
+    border: none;
+    color:inherit; 
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+select {
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+}
